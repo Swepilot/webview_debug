@@ -7,8 +7,10 @@ Added is the option to load either local html or a remote webpage
 
 ## Getting Started
 
-1. Run the project on an Android device
-2. Tap the "Load local html" button and observe if any text is shown.
-   a. If not shown: Simply tap the screen and the text will show (this is the bug)
-   b. If shown: Go back and try again. The bug does not replicate every time
-3. A "Load flutter.dev" button is provided to show remote webpages always load/display correctly
+<ol>
+   <li>Run the project on an Android device</li>
+   <li>Tap the "Load local html" button and observe if any text is shown.</li>
+      <ul>If not shown: Simply tap the screen and the text will show (this is the bug)</ul>
+      <ul>If shown: Go back and try again. The bug does not replicate every time</ul>
+   <li>A "Load flutter.dev" button is provided to show remote webpages always load/display correctly</li>
+</ol>
