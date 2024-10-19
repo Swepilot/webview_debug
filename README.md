@@ -1,16 +1,14 @@
-# webview
+# webview_debug
 
-A new Flutter project.
+A runnable project to demonstrate the issue when using .loadHtmlString to help debugging the issue in https://pub.dev/packages/webview_flutter
+
+This project is using the boilerplate code from `flutter create` combined with the example code from https://pub.dev/packages/webview_flutter.
+Added is the option to load either local html or a remote webpage
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Run the project on an Android device
+2. Tap the "Load local html" button and observe if any text is shown.
+   a. If not shown: Simply tap the screen and the text will show (this is the bug)
+   b. If shown: Go back and try again. The bug does not replicate every time
+3. A "Load flutter.dev" button is provided to show remote webpages always load/display correctly
