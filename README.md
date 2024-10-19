@@ -1,6 +1,6 @@
 # webview_debug
 
-A runnable project to demonstrate the issue when using .loadHtmlString to help debugging the issue in https://pub.dev/packages/webview_flutter
+A runnable project to demonstrate the issue when using .loadHtmlString to help debugging an issue possibly related to [https://pub.dev/packages/webview_flutter](https://github.com/flutter/flutter/issues/155137)
 
 This project is using the boilerplate code from `flutter create` combined with the example code from https://pub.dev/packages/webview_flutter.
 Added is the option to load either local html or a remote webpage
